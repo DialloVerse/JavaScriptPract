@@ -24,9 +24,11 @@ document.getElementById("myButton").onclick = function () {
   document.getElementById("myLabel").innerHTML = "Hello " + username;
 };  */
 
+/* *********************************************************
+
 //Type Conversion = change the datatyoe of a value to another
 //                  (strings, numbers, booleans)
-
+/*
 let age = window.prompt("How old are you?");
 
 console.log(typeof age);
@@ -35,3 +37,19 @@ console.log(typeof age);
 age += 1;
 
 console.log("Happy Birthday! You are", age, "years old");
+*/
+
+let x;
+let y;
+let z;
+let z1;
+
+x = Number("3.14");
+y = String(3.14);
+z = Boolean("Pizza");
+z1 = Boolean("");
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
+console.log(z1, typeof z1);
